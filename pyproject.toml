@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "news-editor"
+version = "0.1.0"
+description = ""
+authors = ["pipka2 <stepa.usow@gmail.com>"]
+readme = "README.md"
+packages = [{include = "news"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pendulum = "^3.0.0"
+fastapi = "^0.115.6"
+pydantic = "^2.10.3"
+pydantic-settings = "^2.6.1"
+sqlalchemy = "^2.0.36"
+uvicorn = "^0.32.1"
+aiomysql = "^0.2.0"
+pillow = "^11.0.0"
+python-io = "^0.3"
+fastapi-filter = "^2.0.1"
+alembic = "^1.14.0"
+passlib = "^1.7.4"
+pyjwt = "^2.10.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
